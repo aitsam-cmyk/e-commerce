@@ -1,0 +1,24 @@
+# Global ignores
+.DS_Store
+*.log
+
+# Env files
+.env
+*.env
+api/.env
+web/.env
+
+# Node modules
+node_modules/
+api/node_modules/
+web/node_modules/
+
+# Builds and caches
+api/dist/
+web/.next/
+web/out/
+
+# Misc
+.vercel
+.husky
+coverage/
